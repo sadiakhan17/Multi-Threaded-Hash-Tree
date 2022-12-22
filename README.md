@@ -1,7 +1,7 @@
 # Multi-Threaded-Hash-Tree
-htree.c is driver
-the .h files just have useful thread stuff in it and stuff for tracking time
-this program uses a binary tree of threads to calculate the hash value from very large files
+htree.c is driver__
+the .h files just have useful thread stuff in it and stuff for tracking time__
+this program uses a binary tree of threads to calculate the hash value from very large files__
 it is multithreaded so we can have a speedup in time to compute the hash values
 the files are divided into n blocks and there are m thread 
 each thread calculates the hash value of n/m consecutive blocks and sends it to its parent
